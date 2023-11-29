@@ -5,11 +5,11 @@
     <li>
       <a href="/skills/<%=t.id %>">
         <%= t.skill %>
-      </a>
-      - 
-      <%= t.done ? 'done' : 'not done' %>
+      </a>      
     </li>
     <% }); %>
   </ul>
+  <a href="/skills/new">Add Skill</a>
+
   
   <%- include('../partials/footer') %>
